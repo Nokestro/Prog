@@ -1,21 +1,15 @@
-World = None
-Name = "Ilya"
-print (Name)
-a = 156
-print (a)
-b = 1689.1
-print (b)
-c = True
-surname = "Kishcunov"
-D = 26
-print (D)
-d = 25.5
-print(D-d)
-print (Name, surname)
-A = True
-B = False
-print (type(A))
-print (B)
-Void = None
-print (Void)
-print ("World is", World)
+import math
+
+print(1**100)
+print(2**16)
+print(2-1000)
+print(2+2*2)
+print(60/3)
+print(math.sqrt(144))
+x=2+5*14
+print(x)
+y=66-11
+print(y)
+z=16-8
+print(math.sqrt(z))
+
