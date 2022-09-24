@@ -1,15 +1,7 @@
-import math
-
-print(1**100)
-print(2**16)
-print(2-1000)
-print(2+2*2)
-print(60/3)
-print(math.sqrt(144))
-x=2+5*14
-print(x)
-y=66-11
-print(y)
-z=16-8
-print(math.sqrt(z))
-
+n = input ('Количесвто лет ')
+if int(n)%10>=5 and int(n)%10<10:
+    print ('Вам '+ n + ' лет')
+elif int(n)%10<=4 and int(n)%10>1:
+    print ('Вам '+ n + ' года')
+else:
+    print ('Вам '+ n + ' год')
